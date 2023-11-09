@@ -20,3 +20,56 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# macOS
+.DS_Store
+
+# Flutter-specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea
+.flutter-plugins-old
+.flutter-plugins-dependencies-old
+build/
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile
+
+# Android-specific
+build/
+android/app/build/
+android/app/.externalNativeBuild
+android/local.properties
+android/gradle.properties
+android/app/.flutter-plugins
+
+# iOS-specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/AppFrameworkInfo.plist
+ios/Flutter/Flutter.xcconfig
+ios/Flutter/AppFrameworkInfo.debug.xcconfig
+ios/Flutter/AppFrameworkInfo.profile.xcconfig
+ios/Flutter/Flutter.debug.xcconfig
+ios/Flutter/Flutter.profile.xcconfig
+ios/Flutter/Generated.xcconfig
+
+# Web-specific
+.web/
+web/packages/
+web/flutter_service_worker.js
+web/index.html
+web/main.dart.js
+web/main.dart.js.map
+
+# Miscellaneous
+*.iml
+*.ipr
+*.iws
+*.log
+.idea/
+.vscode/
+.pub/
+pubspec.lock
+pubspec.yaml.lock
